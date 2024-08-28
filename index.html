@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="search-container">
+            <form class="search-bar">
+                <input id="input" type="text" name="query" placeholder="Enter your location..." required>
+                <button id="searchBtn" type="submit">Search</button>
+            </form>
+        </div>
+        <p class="location">Weather in <span></span> </p>
+        <div class="temp-container">
+            <p class="temp">12</p>
+            <input type="checkbox" id="switch" class="checkbox" />
+
+            <label for="switch" class="toggle">
+                <p class="toggle-text">
+                    &nbsp; C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F
+                </p>
+            </label>
+
+        </div>
+        <p class="conditions"></p>
+    </div>
+
+
+</body>
+
+</html>
