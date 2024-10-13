@@ -1,9 +1,9 @@
 console.log("Hello")
 
-const weatherUrlStart = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
+const weatherUrlStart = ""
 //quicker than cutting out the location with substring 
-const weatherUrlEnd = "?unitGroup=metric&include=current&key=6UQM4L7HJR8KMLGVG9MNSVHHU&contentType=json"
-const gifUrl = "https://api.giphy.com/v1/gifs/translate?api_key=fZqwGoFsiGaAya9iNGJ9voocPnIVDERO&s="
+const weatherUrlEnd = ""
+const gifUrl = ""
 
 const body = document.querySelector("body")
 const form = document.querySelector(".search-bar")
